@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="converter convert-from-rub">
+    <p>Конвертер из рублей</p>
+    <input type="text" class="check1" id="check1"><label for="check1">Российский рубль (RUB)</label>
+    <select name="choose-value" class="select">
+      <option value="">Выберите валюту</option>
+      <option value="usd">Доллар США (USD)</option>
+      <option value="eur">Евро (EUR)</option>
+    </select>
+      <input type="text" class="check2" id="check2" disabled><label for="check2" class="label">Не выбрано</label><br>
+      <button>Конвертировать</button>
+  </div>
+  <div class="converter convert-to-rub">
+    <p>Конвертер в рубли</p>
+    <select name="choose-value" class="select">
+      <option value="">Выберите валюту</option>
+      <option value="usd">Доллар США (USD)</option>
+      <option value="eur">Евро (EUR)</option>
+    </select>
+    <input type="text" id="check3" class="check1"><label for="check3" class="label" >Не выбрано</label>
+      <input type="text" id="check4" class="check2" disabled><label for="check4">Российский рубль (RUB)</label><br>
+      <button>Конвертировать</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- <select class="calc-item calc-type" required>
+  <option class="calc-option-title" value="">Выберите тип объекта*</option>
+  <option value="1">Интерьер Квартиры</option>
+  <option value="1.4">Интерьер Частного дома</option>
+  <option value="2">Интерьер Офиса</option>
+</select> -->
